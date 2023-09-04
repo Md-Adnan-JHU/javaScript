@@ -1614,41 +1614,41 @@
 
 //async await
 
-async function add(a, b) {
-    return new Promise((resolve, reject) => resolve(a + b));
-    // console.log(d)
-}
+// async function add(a, b) {
+//     return new Promise((resolve, reject) => resolve(a + b));
+//     // console.log(d)
+// }
 
-console.log(3)
-// add(2, 3).then(v => console.log(v))
-async function displays() {
-    let data = await add(2, 2);
-    console.log(data);
-}
-displays()
-console.log(7)
+// console.log(3)
+// // add(2, 3).then(v => console.log(v))
+// async function displays() {
+//     let data = await add(2, 2);
+//     console.log(data);
+// }
+// displays()
+// console.log(7)
 
 
-async function asynchronous_operational_method() {
+// async function asynchronous_operational_method() {
 
-    return new Promise((resolve, reject) => resolve("Hello"));
-    // let second_promise =
-    //     new Promise((resolve, reject) => {
-    //     setTimeout(() => {
-    //         resolve(" GeeksforGeeks..");
-    //     }, 1000);
-    // });
-    // let combined_promise =
-    //     Promise.all([first_promise, second_promise]);
-    // return combined_promise;
-}
+//     return new Promise((resolve, reject) => resolve("Hello"));
+//     // let second_promise =
+//     //     new Promise((resolve, reject) => {
+//     //     setTimeout(() => {
+//     //         resolve(" GeeksforGeeks..");
+//     //     }, 1000);
+//     // });
+//     // let combined_promise =
+//     //     Promise.all([first_promise, second_promise]);
+//     // return combined_promise;
+// }
 
-async function display() {
-    let data = await asynchronous_operational_method();
-    console.log(data);
-}
+// async function display() {
+//     let data = await asynchronous_operational_method();
+//     console.log(data);
+// }
 
-display();
+// display();
 
 
 
